@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>youtube-video</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="videowrapper">
+    <iframe [src]="updateVideoUrl(video_id)" frameborder="0" allowfullscreen
+        
+    ></iframe>
+</div>
+<button (click)="watch_on_youtube('Hnh0NtGtSuM')" ion-button small color="danger">
+    <ion-icon name="logo-youtube"></ion-icon>
+    Or Watch On Youtube
+</button>
+</ion-content>
